@@ -1,0 +1,14 @@
+# Ignore Rust build files
+target/
+**/target/
+
+# Ignore backup files
+*.rs.bk
+
+# Ignore compiled binaries
+*.exe
+*.out
+
+# Ignore system files
+.DS_Store
+Thumbs.db
