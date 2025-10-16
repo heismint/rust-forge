@@ -1,5 +1,4 @@
 fn main() {
-    
     // if expressions
     let number = 7;
 
@@ -24,10 +23,6 @@ fn main() {
 
     // usinf if in a let statement
     let condition = true;
-    let number = if condition {
-        5
-    } else {
-        6
-    };
+    let number = if condition { 5 } else { 6 };
     println!("The value of number is: {}", number);
 }

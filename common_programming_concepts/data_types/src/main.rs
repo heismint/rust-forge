@@ -1,5 +1,4 @@
 fn main() {
-
     // Scalar types(a data type family in RUST)
     // Floating point types
     let _x = 2.0; //f64
@@ -29,12 +28,12 @@ fn main() {
     // Compound types(another data type family in RUST)
     // Tuple type
     let tup: (i32, f64, u8) = (500, 6.6, 6);
-    let (x,y,z) = tup; // This is called destructuring.
+    let (x, y, z) = tup; // This is called destructuring.
 
     // accessing a tuple value with a period(.)
     let five_one_hundred = tup.0;
 
-    // Array type 
+    // Array type
     let a: [i32; 5] = [1, 2, 3, 4, 5];
 
     // accessing array elements

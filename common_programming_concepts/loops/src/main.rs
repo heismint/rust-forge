@@ -1,7 +1,6 @@
 fn main() {
-    
     // loop
-    loop{
+    loop {
         println!("Hello, world!");
         break;
     }
@@ -31,7 +30,7 @@ fn main() {
     println!("LIFTOFF!!!");
 
     // using a for loop for the example above
-    for number in (1..4).rev(){
+    for number in (1..4).rev() {
         println!("{}!", number);
     }
 
@@ -41,16 +40,18 @@ fn main() {
     let a = [10, 20, 30, 40, 50];
     let mut index = 0;
 
-    while index < 5 { // this approach is error prone, could cause the program to panic
+    while index < 5 {
+        // this approach is error prone, could cause the program to panic
         println!("The value is: {}", a[index]);
-        
+
         index = index + 1;
     }
 
     // looping through a collection with for
     let b = [10, 20, 30, 40, 50];
 
-    for element in b.iter() { // safer approach
+    for element in b.iter() {
+        // safer approach
         println!("The value is: {}", element);
     }
 }

@@ -1,8 +1,7 @@
 fn main() {
-    
     // statements and expressions in a function body
     let x = 6; // This is a statement
-    
+
     // This is an expression
     let y = {
         let x = 3;
@@ -19,7 +18,8 @@ fn main() {
     println!("The value of b is: {}", b);
 }
 
-fn another_function(x: i32, y: i32) { // functions with parameters
+fn another_function(x: i32, y: i32) {
+    // functions with parameters
     println!("The value of x is: {}", x);
     println!("The value of y is: {}", y);
 }
